@@ -22,3 +22,24 @@ body {
   height: 100%;
   background-color: #f8fafc;
 }
+
+body,
+#root {
+  width: 100%;
+}
+
+#root {
+  display: flex;
+}
+
+#root #side-image {
+  width: 50%;
+  object-fit: fill;
+  flex: 1;
+}
+
+@media screen and (max-width: 1080px) {
+  #root #side-image {
+    display: none;
+  }
+}

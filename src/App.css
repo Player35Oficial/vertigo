@@ -5,12 +5,14 @@ main {
   height: 100vh;
   align-items: center;
   justify-content: center;
+  flex: 1;
+  width: 480px;
 }
 
 main img {
   width: min-content;
   position: absolute;
-  top: 120px;
+  top: 2vh;
 }
 
 main .call-container {
@@ -21,8 +23,9 @@ main .call-container {
   width: 100%;
 }
 
-main .form-container {
-  width: 100%;
+main .call-container,
+.form-container {
+  width: 480px;
 }
 
 a.inscreva-se {
